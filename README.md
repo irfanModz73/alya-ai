@@ -62,9 +62,7 @@ alya-ai/
 ---
 ## requirements
 - node.js >= 16.0.0
-- npm
-===============
-tidak ada dependency tambahan. semua murni javascript native.
+- npm tidak ada dependency tambahan. semua murni javascript native.
 ---
 
 ## quick start
