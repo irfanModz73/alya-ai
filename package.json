@@ -1,0 +1,16 @@
+{
+  "name": "alya-ai",
+  "version": "1.0.0-beta",
+  "description": "Alya-B20-Beta Custom AI Model - Built from scratch in JavaScript",
+  "main": "index.js",
+  "author": "irfan",
+  "license": "MIT",
+  "scripts": {
+    "train": "node train.js",
+    "chat": "node chat.js",
+    "example": "node examples/basic-train.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
