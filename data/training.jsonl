@@ -1,0 +1,500 @@
+{"text":"halo alya","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v1","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v1","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v1","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v1","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v1","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v1","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v1","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v1","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v1","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v1","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v2","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v2","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v2","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v2","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v2","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v2","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v2","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v2","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v2","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v2","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v3","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v3","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v3","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v3","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v3","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v3","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v3","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v3","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v3","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v3","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v4","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v4","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v4","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v4","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v4","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v4","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v4","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v4","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v4","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v4","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v5","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v5","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v5","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v5","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v5","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v5","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v5","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v5","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v5","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v5","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v6","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v6","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v6","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v6","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v6","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v6","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v6","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v6","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v6","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v6","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v7","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v7","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v7","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v7","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v7","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v7","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v7","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v7","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v7","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v7","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v8","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v8","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v8","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v8","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v8","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v8","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v8","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v8","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v8","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v8","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v9","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v9","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v9","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v9","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v9","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v9","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v9","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v9","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v9","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v9","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v10","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v10","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v10","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v10","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v10","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v10","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v10","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v10","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v10","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v10","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v11","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v11","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v11","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v11","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v11","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v11","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v11","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v11","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v11","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v11","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v12","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v12","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v12","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v12","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v12","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v12","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v12","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v12","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v12","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v12","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v13","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v13","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v13","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v13","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v13","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v13","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v13","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v13","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v13","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v13","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v14","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v14","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v14","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v14","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v14","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v14","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v14","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v14","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v14","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v14","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v15","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v15","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v15","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v15","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v15","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v15","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v15","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v15","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v15","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v15","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v16","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v16","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v16","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v16","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v16","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v16","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v16","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v16","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v16","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v16","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v17","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v17","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v17","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v17","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v17","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v17","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v17","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v17","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v17","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v17","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v18","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v18","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v18","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v18","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v18","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v18","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v18","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v18","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v18","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v18","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v19","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v19","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v19","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v19","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v19","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v19","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v19","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v19","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v19","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v19","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v20","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v20","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v20","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v20","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v20","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v20","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v20","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v20","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v20","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v20","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v21","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v21","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v21","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v21","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v21","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v21","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v21","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v21","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v21","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v21","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v22","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v22","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v22","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v22","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v22","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v22","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v22","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v22","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v22","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v22","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v23","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v23","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v23","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v23","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v23","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v23","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v23","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v23","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v23","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v23","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v24","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v24","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v24","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v24","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v24","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v24","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v24","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v24","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v24","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v24","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v25","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v25","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v25","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v25","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v25","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v25","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v25","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v25","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v25","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v25","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v26","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v26","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v26","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v26","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v26","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v26","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v26","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v26","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v26","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v26","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v27","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v27","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v27","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v27","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v27","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v27","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v27","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v27","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v27","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v27","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v28","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v28","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v28","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v28","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v28","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v28","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v28","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v28","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v28","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v28","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v29","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v29","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v29","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v29","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v29","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v29","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v29","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v29","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v29","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v29","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v30","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v30","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v30","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v30","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v30","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v30","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v30","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v30","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v30","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v30","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v31","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v31","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v31","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v31","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v31","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v31","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v31","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v31","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v31","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v31","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v32","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v32","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v32","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v32","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v32","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v32","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v32","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v32","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v32","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v32","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v33","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v33","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v33","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v33","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v33","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v33","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v33","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v33","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v33","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v33","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v34","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v34","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v34","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v34","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v34","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v34","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v34","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v34","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v34","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v34","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v35","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v35","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v35","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v35","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v35","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v35","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v35","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v35","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v35","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v35","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v36","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v36","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v36","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v36","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v36","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v36","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v36","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v36","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v36","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v36","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v37","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v37","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v37","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v37","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v37","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v37","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v37","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v37","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v37","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v37","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v38","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v38","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v38","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v38","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v38","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v38","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v38","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v38","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v38","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v38","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v39","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v39","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v39","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v39","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v39","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v39","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v39","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v39","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v39","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v39","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v40","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v40","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v40","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v40","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v40","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v40","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v40","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v40","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v40","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v40","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v41","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v41","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v41","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v41","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v41","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v41","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v41","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v41","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v41","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v41","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v42","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v42","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v42","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v42","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v42","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v42","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v42","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v42","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v42","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v42","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v43","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v43","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v43","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v43","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v43","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v43","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v43","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v43","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v43","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v43","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v44","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v44","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v44","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v44","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v44","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v44","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v44","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v44","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v44","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v44","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v45","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v45","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v45","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v45","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v45","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v45","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v45","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v45","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v45","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v45","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v46","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v46","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v46","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v46","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v46","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v46","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v46","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v46","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v46","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v46","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v47","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v47","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v47","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v47","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v47","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v47","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v47","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v47","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v47","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v47","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v48","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v48","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v48","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v48","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v48","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v48","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v48","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v48","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v48","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v48","response":"Baik nih, kamu gimana?"}
+{"text":"halo alya v49","response":"Halo! Ada yang bisa aku bantu?"}
+{"text":"siapa kamu v49","response":"Aku Alya Queen, AI asisten buatan Irfan."}
+{"text":"buat function hello world v49","response":"function helloWorld() {\n  console.log(\"Hello World!\");\n}"}
+{"text":"buat function tambah v49","response":"function tambah(a, b) {\n  return a + b;\n}"}
+{"text":"contoh array javascript v49","response":"const arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));"}
+{"text":"apa itu variable v49","response":"Variable adalah tempat menyimpan data. Contoh: let x = 5;"}
+{"text":"cara bikin function v49","response":"function namaFunction() {\n  // kode\n}"}
+{"text":"contoh if else v49","response":"if (x > 5) {\n  console.log(\"Besar\");\n} else {\n  console.log(\"Kecil\");\n}"}
+{"text":"terima kasih v49","response":"Sama-sama! Senang bisa membantu."}
+{"text":"apa kabar v49","response":"Baik nih, kamu gimana?"}

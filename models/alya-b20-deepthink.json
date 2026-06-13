@@ -1,0 +1,2025 @@
+{
+  "config": {
+    "model": {
+      "name": "ALYA-B20-DEEPTHINK",
+      "version": "1.0.0",
+      "author": "irfan",
+      "parameters": 25000000
+    },
+    "architecture": {
+      "vocabSize": 32000,
+      "embeddingDim": 256,
+      "hiddenDim": 512,
+      "numLayers": 6,
+      "numHeads": 8,
+      "maxSeqLen": 512,
+      "dropout": 0.1,
+      "thinkSteps": 3,
+      "memorySize": 10000
+    },
+    "training": {
+      "batchSize": 32,
+      "epochs": 10,
+      "learningRate": 0.0001,
+      "warmupSteps": 1000,
+      "weightDecay": 0.01,
+      "gradClip": 1
+    },
+    "inference": {
+      "temperature": 0.7,
+      "topP": 0.9,
+      "topK": 50,
+      "maxTokens": 256,
+      "repetitionPenalty": 1.1
+    },
+    "paths": {
+      "modelDir": "./models",
+      "dataDir": "./data",
+      "savePath": "./models/alya-b20-beta.json",
+      "tokenizerPath": "./models/tokenizer.json"
+    }
+  },
+  "tokenizer": {
+    "wordToId": {
+      "1": 36,
+      "2": 37,
+      "3": 38,
+      "4": 39,
+      "5": 40,
+      "6": 41,
+      "7": 42,
+      "8": 43,
+      "9": 44,
+      "10": 45,
+      "11": 46,
+      "12": 47,
+      "13": 48,
+      "14": 49,
+      "15": 50,
+      "16": 51,
+      "17": 52,
+      "18": 53,
+      "19": 54,
+      "20": 55,
+      "21": 56,
+      "22": 57,
+      "23": 58,
+      "24": 59,
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "<BOS>": 2,
+      "<EOS>": 3,
+      "versi": 4,
+      "siapa": 5,
+      "kamu": 6,
+      "apa": 7,
+      "buat": 8,
+      "contoh": 9,
+      "javascript": 10,
+      "itu": 11,
+      "function": 12,
+      "developer": 13,
+      "mu": 14,
+      "yang": 15,
+      "kabar": 16,
+      "halo": 17,
+      "hai": 18,
+      "pagi": 19,
+      "malam": 20,
+      "terima": 21,
+      "kasih": 22,
+      "makasih": 23,
+      "bisa": 24,
+      "cara": 25,
+      "belajar": 26,
+      "node": 27,
+      "js": 28,
+      "hello": 29,
+      "world": 30,
+      "tambah": 31,
+      "array": 32,
+      "object": 33,
+      "loop": 34,
+      "for": 35
+    },
+    "idToWord": {
+      "0": "<PAD>",
+      "1": "<UNK>",
+      "2": "<BOS>",
+      "3": "<EOS>",
+      "4": "versi",
+      "5": "siapa",
+      "6": "kamu",
+      "7": "apa",
+      "8": "buat",
+      "9": "contoh",
+      "10": "javascript",
+      "11": "itu",
+      "12": "function",
+      "13": "developer",
+      "14": "mu",
+      "15": "yang",
+      "16": "kabar",
+      "17": "halo",
+      "18": "hai",
+      "19": "pagi",
+      "20": "malam",
+      "21": "terima",
+      "22": "kasih",
+      "23": "makasih",
+      "24": "bisa",
+      "25": "cara",
+      "26": "belajar",
+      "27": "node",
+      "28": "js",
+      "29": "hello",
+      "30": "world",
+      "31": "tambah",
+      "32": "array",
+      "33": "object",
+      "34": "loop",
+      "35": "for",
+      "36": "1",
+      "37": "2",
+      "38": "3",
+      "39": "4",
+      "40": "5",
+      "41": "6",
+      "42": "7",
+      "43": "8",
+      "44": "9",
+      "45": "10",
+      "46": "11",
+      "47": "12",
+      "48": "13",
+      "49": "14",
+      "50": "15",
+      "51": "16",
+      "52": "17",
+      "53": "18",
+      "54": "19",
+      "55": "20",
+      "56": "21",
+      "57": "22",
+      "58": "23",
+      "59": "24"
+    },
+    "vocabSize": 60
+  },
+  "isTrained": true,
+  "trainingMemory": {
+    "20": [
+      "};"
+    ],
+    "siapa": [
+      "kamu",
+      "developer",
+      "yang",
+      "versi"
+    ],
+    "aku": [
+      "alya",
+      "bantu?",
+      "bisa"
+    ],
+    "alya": [
+      "queen,"
+    ],
+    "queen,": [
+      "asisten",
+      "ai"
+    ],
+    "asisten": [
+      "ai"
+    ],
+    "ai": [
+      "buatan",
+      "asisten."
+    ],
+    "buatan": [
+      "irfan."
+    ],
+    "developer": [
+      "mu"
+    ],
+    "developerku": [
+      "adalah"
+    ],
+    "adalah": [
+      "irfan,",
+      "bahasa",
+      "runtime"
+    ],
+    "irfan,": [
+      "seorang"
+    ],
+    "seorang": [
+      "javascript"
+    ],
+    "javascript": [
+      "developer.",
+      "adalah",
+      "di",
+      "versi"
+    ],
+    "yang": [
+      "buat",
+      "membuatku.",
+      "bisa"
+    ],
+    "buat": [
+      "kamu",
+      "project",
+      "function"
+    ],
+    "irfan": [
+      "yang"
+    ],
+    "kamu": [
+      "siapa",
+      "bisa",
+      "versi"
+    ],
+    "apa": [
+      "kabar",
+      "itu",
+      "versi"
+    ],
+    "baik,": [
+      "siap"
+    ],
+    "siap": [
+      "membantu!"
+    ],
+    "halo!": [
+      "ada"
+    ],
+    "ada": [
+      "yang"
+    ],
+    "bisa": [
+      "aku",
+      "apa",
+      "chat"
+    ],
+    "terima": [
+      "kasih"
+    ],
+    "chat": [
+      "dan"
+    ],
+    "dan": [
+      "bantu"
+    ],
+    "bantu": [
+      "coding"
+    ],
+    "coding": [
+      "javascript."
+    ],
+    "cara": [
+      "belajar"
+    ],
+    "belajar": [
+      "javascript"
+    ],
+    "1.": [
+      "pelajari"
+    ],
+    "pelajari": [
+      "dasar:"
+    ],
+    "dasar:": [
+      "variabel,"
+    ],
+    "variabel,": [
+      "function,"
+    ],
+    "function,": [
+      "array."
+    ],
+    "array.": [
+      "2."
+    ],
+    "2.": [
+      "buat"
+    ],
+    "project": [
+      "kecil."
+    ],
+    "kecil.": [
+      "3."
+    ],
+    "3.": [
+      "praktik"
+    ],
+    "praktik": [
+      "rutin."
+    ],
+    "itu": [
+      "javascript",
+      "node"
+    ],
+    "bahasa": [
+      "pemrograman"
+    ],
+    "pemrograman": [
+      "untuk"
+    ],
+    "untuk": [
+      "web."
+    ],
+    "node": [
+      "js"
+    ],
+    "node.js": [
+      "adalah"
+    ],
+    "runtime": [
+      "javascript"
+    ],
+    "di": [
+      "server."
+    ],
+    "function": [
+      "hello",
+      "helloworld()",
+      "tambah",
+      "tambah(a,"
+    ],
+    "hello": [
+      "world"
+    ],
+    "helloworld()": [
+      "{"
+    ],
+    "{": [
+      "console.log(\"hello",
+      "return",
+      "name:",
+      "console.log(i);"
+    ],
+    "console.log(\"hello": [
+      "world!\");"
+    ],
+    "world!\");": [
+      "}"
+    ],
+    "tambah(a,": [
+      "b)"
+    ],
+    "b)": [
+      "{"
+    ],
+    "return": [
+      "a"
+    ],
+    "a": [
+      "+"
+    ],
+    "+": [
+      "b;"
+    ],
+    "b;": [
+      "}"
+    ],
+    "contoh": [
+      "array",
+      "object",
+      "loop"
+    ],
+    "const": [
+      "arr",
+      "user"
+    ],
+    "arr": [
+      "="
+    ],
+    "=": [
+      "[1,",
+      "{",
+      "0;"
+    ],
+    "[1,": [
+      "2,"
+    ],
+    "2,": [
+      "3,"
+    ],
+    "3,": [
+      "4,"
+    ],
+    "4,": [
+      "5];"
+    ],
+    "5];": [
+      "console.log(arr);"
+    ],
+    "user": [
+      "="
+    ],
+    "name:": [
+      "\"irfan\","
+    ],
+    "\"irfan\",": [
+      "age:"
+    ],
+    "age:": [
+      "20"
+    ],
+    "};": [
+      "console.log(user);"
+    ],
+    "loop": [
+      "for"
+    ],
+    "for": [
+      "(let",
+      "versi"
+    ],
+    "(let": [
+      "i"
+    ],
+    "i": [
+      "=",
+      "<"
+    ],
+    "0;": [
+      "i"
+    ],
+    "<": [
+      "5;"
+    ],
+    "5;": [
+      "i++)"
+    ],
+    "i++)": [
+      "{"
+    ],
+    "console.log(i);": [
+      "}"
+    ],
+    "versi": [
+      "1",
+      "2",
+      "3"
+    ],
+    "mu": [
+      "versi"
+    ],
+    "kabar": [
+      "versi"
+    ],
+    "halo": [
+      "versi"
+    ],
+    "hai": [
+      "versi"
+    ],
+    "pagi": [
+      "versi"
+    ],
+    "malam": [
+      "versi"
+    ],
+    "kasih": [
+      "versi"
+    ],
+    "makasih": [
+      "versi"
+    ],
+    "js": [
+      "versi"
+    ],
+    "world": [
+      "versi"
+    ],
+    "tambah": [
+      "versi"
+    ],
+    "array": [
+      "versi"
+    ],
+    "object": [
+      "versi"
+    ]
+  },
+  "qaMap": {
+    "siapa kamu": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar": [
+      "Baik, siap membantu!"
+    ],
+    "halo": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai": [
+      "Hai!"
+    ],
+    "pagi": [
+      "Pagi!"
+    ],
+    "malam": [
+      "Malam!"
+    ],
+    "terima kasih": [
+      "Sama-sama!"
+    ],
+    "makasih": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 1": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 1": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 1": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 1": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 1": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 1": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 1": [
+      "Hai!"
+    ],
+    "pagi versi 1": [
+      "Pagi!"
+    ],
+    "malam versi 1": [
+      "Malam!"
+    ],
+    "terima kasih versi 1": [
+      "Sama-sama!"
+    ],
+    "makasih versi 1": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 1": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 1": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 1": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 1": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 1": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 1": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 1": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 1": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 1": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 2": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 2": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 2": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 2": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 2": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 2": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 2": [
+      "Hai!"
+    ],
+    "pagi versi 2": [
+      "Pagi!"
+    ],
+    "malam versi 2": [
+      "Malam!"
+    ],
+    "terima kasih versi 2": [
+      "Sama-sama!"
+    ],
+    "makasih versi 2": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 2": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 2": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 2": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 2": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 2": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 2": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 2": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 2": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 2": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 3": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 3": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 3": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 3": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 3": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 3": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 3": [
+      "Hai!"
+    ],
+    "pagi versi 3": [
+      "Pagi!"
+    ],
+    "malam versi 3": [
+      "Malam!"
+    ],
+    "terima kasih versi 3": [
+      "Sama-sama!"
+    ],
+    "makasih versi 3": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 3": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 3": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 3": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 3": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 3": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 3": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 3": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 3": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 3": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 4": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 4": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 4": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 4": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 4": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 4": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 4": [
+      "Hai!"
+    ],
+    "pagi versi 4": [
+      "Pagi!"
+    ],
+    "malam versi 4": [
+      "Malam!"
+    ],
+    "terima kasih versi 4": [
+      "Sama-sama!"
+    ],
+    "makasih versi 4": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 4": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 4": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 4": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 4": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 4": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 4": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 4": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 4": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 4": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 5": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 5": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 5": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 5": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 5": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 5": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 5": [
+      "Hai!"
+    ],
+    "pagi versi 5": [
+      "Pagi!"
+    ],
+    "malam versi 5": [
+      "Malam!"
+    ],
+    "terima kasih versi 5": [
+      "Sama-sama!"
+    ],
+    "makasih versi 5": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 5": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 5": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 5": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 5": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 5": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 5": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 5": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 5": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 5": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 6": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 6": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 6": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 6": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 6": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 6": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 6": [
+      "Hai!"
+    ],
+    "pagi versi 6": [
+      "Pagi!"
+    ],
+    "malam versi 6": [
+      "Malam!"
+    ],
+    "terima kasih versi 6": [
+      "Sama-sama!"
+    ],
+    "makasih versi 6": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 6": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 6": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 6": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 6": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 6": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 6": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 6": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 6": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 6": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 7": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 7": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 7": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 7": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 7": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 7": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 7": [
+      "Hai!"
+    ],
+    "pagi versi 7": [
+      "Pagi!"
+    ],
+    "malam versi 7": [
+      "Malam!"
+    ],
+    "terima kasih versi 7": [
+      "Sama-sama!"
+    ],
+    "makasih versi 7": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 7": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 7": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 7": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 7": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 7": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 7": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 7": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 7": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 7": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 8": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 8": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 8": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 8": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 8": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 8": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 8": [
+      "Hai!"
+    ],
+    "pagi versi 8": [
+      "Pagi!"
+    ],
+    "malam versi 8": [
+      "Malam!"
+    ],
+    "terima kasih versi 8": [
+      "Sama-sama!"
+    ],
+    "makasih versi 8": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 8": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 8": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 8": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 8": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 8": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 8": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 8": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 8": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 8": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 9": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 9": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 9": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 9": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 9": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 9": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 9": [
+      "Hai!"
+    ],
+    "pagi versi 9": [
+      "Pagi!"
+    ],
+    "malam versi 9": [
+      "Malam!"
+    ],
+    "terima kasih versi 9": [
+      "Sama-sama!"
+    ],
+    "makasih versi 9": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 9": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 9": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 9": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 9": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 9": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 9": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 9": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 9": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 9": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 10": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 10": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 10": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 10": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 10": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 10": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 10": [
+      "Hai!"
+    ],
+    "pagi versi 10": [
+      "Pagi!"
+    ],
+    "malam versi 10": [
+      "Malam!"
+    ],
+    "terima kasih versi 10": [
+      "Sama-sama!"
+    ],
+    "makasih versi 10": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 10": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 10": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 10": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 10": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 10": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 10": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 10": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 10": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 10": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 11": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 11": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 11": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 11": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 11": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 11": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 11": [
+      "Hai!"
+    ],
+    "pagi versi 11": [
+      "Pagi!"
+    ],
+    "malam versi 11": [
+      "Malam!"
+    ],
+    "terima kasih versi 11": [
+      "Sama-sama!"
+    ],
+    "makasih versi 11": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 11": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 11": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 11": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 11": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 11": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 11": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 11": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 11": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 11": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 12": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 12": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 12": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 12": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 12": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 12": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 12": [
+      "Hai!"
+    ],
+    "pagi versi 12": [
+      "Pagi!"
+    ],
+    "malam versi 12": [
+      "Malam!"
+    ],
+    "terima kasih versi 12": [
+      "Sama-sama!"
+    ],
+    "makasih versi 12": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 12": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 12": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 12": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 12": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 12": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 12": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 12": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 12": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 12": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 13": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 13": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 13": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 13": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 13": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 13": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 13": [
+      "Hai!"
+    ],
+    "pagi versi 13": [
+      "Pagi!"
+    ],
+    "malam versi 13": [
+      "Malam!"
+    ],
+    "terima kasih versi 13": [
+      "Sama-sama!"
+    ],
+    "makasih versi 13": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 13": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 13": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 13": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 13": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 13": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 13": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 13": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 13": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 13": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 14": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 14": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 14": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 14": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 14": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 14": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 14": [
+      "Hai!"
+    ],
+    "pagi versi 14": [
+      "Pagi!"
+    ],
+    "malam versi 14": [
+      "Malam!"
+    ],
+    "terima kasih versi 14": [
+      "Sama-sama!"
+    ],
+    "makasih versi 14": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 14": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 14": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 14": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 14": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 14": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 14": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 14": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 14": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 14": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 15": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 15": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 15": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 15": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 15": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 15": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 15": [
+      "Hai!"
+    ],
+    "pagi versi 15": [
+      "Pagi!"
+    ],
+    "malam versi 15": [
+      "Malam!"
+    ],
+    "terima kasih versi 15": [
+      "Sama-sama!"
+    ],
+    "makasih versi 15": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 15": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 15": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 15": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 15": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 15": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 15": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 15": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 15": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 15": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 16": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 16": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 16": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 16": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 16": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 16": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 16": [
+      "Hai!"
+    ],
+    "pagi versi 16": [
+      "Pagi!"
+    ],
+    "malam versi 16": [
+      "Malam!"
+    ],
+    "terima kasih versi 16": [
+      "Sama-sama!"
+    ],
+    "makasih versi 16": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 16": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 16": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 16": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 16": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 16": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 16": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 16": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 16": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 16": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 17": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 17": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 17": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 17": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 17": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 17": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 17": [
+      "Hai!"
+    ],
+    "pagi versi 17": [
+      "Pagi!"
+    ],
+    "malam versi 17": [
+      "Malam!"
+    ],
+    "terima kasih versi 17": [
+      "Sama-sama!"
+    ],
+    "makasih versi 17": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 17": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 17": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 17": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 17": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 17": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 17": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 17": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 17": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 17": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 18": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 18": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 18": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 18": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 18": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 18": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 18": [
+      "Hai!"
+    ],
+    "pagi versi 18": [
+      "Pagi!"
+    ],
+    "malam versi 18": [
+      "Malam!"
+    ],
+    "terima kasih versi 18": [
+      "Sama-sama!"
+    ],
+    "makasih versi 18": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 18": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 18": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 18": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 18": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 18": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 18": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 18": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 18": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 18": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 19": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 19": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 19": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 19": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 19": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 19": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 19": [
+      "Hai!"
+    ],
+    "pagi versi 19": [
+      "Pagi!"
+    ],
+    "malam versi 19": [
+      "Malam!"
+    ],
+    "terima kasih versi 19": [
+      "Sama-sama!"
+    ],
+    "makasih versi 19": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 19": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 19": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 19": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 19": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 19": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 19": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 19": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 19": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 19": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 20": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 20": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 20": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 20": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 20": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 20": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 20": [
+      "Hai!"
+    ],
+    "pagi versi 20": [
+      "Pagi!"
+    ],
+    "malam versi 20": [
+      "Malam!"
+    ],
+    "terima kasih versi 20": [
+      "Sama-sama!"
+    ],
+    "makasih versi 20": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 20": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 20": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 20": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 20": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 20": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 20": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 20": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 20": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 20": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 21": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 21": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 21": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 21": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 21": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 21": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 21": [
+      "Hai!"
+    ],
+    "pagi versi 21": [
+      "Pagi!"
+    ],
+    "malam versi 21": [
+      "Malam!"
+    ],
+    "terima kasih versi 21": [
+      "Sama-sama!"
+    ],
+    "makasih versi 21": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 21": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 21": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 21": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 21": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 21": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 21": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 21": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 21": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 21": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 22": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 22": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 22": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 22": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 22": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 22": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 22": [
+      "Hai!"
+    ],
+    "pagi versi 22": [
+      "Pagi!"
+    ],
+    "malam versi 22": [
+      "Malam!"
+    ],
+    "terima kasih versi 22": [
+      "Sama-sama!"
+    ],
+    "makasih versi 22": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 22": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 22": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 22": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 22": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 22": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 22": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 22": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 22": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 22": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 23": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 23": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 23": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 23": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 23": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 23": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 23": [
+      "Hai!"
+    ],
+    "pagi versi 23": [
+      "Pagi!"
+    ],
+    "malam versi 23": [
+      "Malam!"
+    ],
+    "terima kasih versi 23": [
+      "Sama-sama!"
+    ],
+    "makasih versi 23": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 23": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 23": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 23": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 23": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 23": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 23": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 23": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 23": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 23": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ],
+    "siapa kamu versi 24": [
+      "Aku Alya Queen, asisten AI buatan Irfan."
+    ],
+    "siapa developer mu versi 24": [
+      "Developerku adalah Irfan, seorang JavaScript developer."
+    ],
+    "siapa yang buat kamu versi 24": [
+      "Irfan yang membuatku."
+    ],
+    "kamu siapa versi 24": [
+      "Alya Queen, AI asisten."
+    ],
+    "apa kabar versi 24": [
+      "Baik, siap membantu!"
+    ],
+    "halo versi 24": [
+      "Halo! Ada yang bisa aku bantu?"
+    ],
+    "hai versi 24": [
+      "Hai!"
+    ],
+    "pagi versi 24": [
+      "Pagi!"
+    ],
+    "malam versi 24": [
+      "Malam!"
+    ],
+    "terima kasih versi 24": [
+      "Sama-sama!"
+    ],
+    "makasih versi 24": [
+      "Sama-sama!"
+    ],
+    "kamu bisa apa versi 24": [
+      "Aku bisa chat dan bantu coding JavaScript."
+    ],
+    "cara belajar javascript versi 24": [
+      "1. Pelajari dasar: variabel, function, array. 2. Buat project kecil. 3. Praktik rutin."
+    ],
+    "apa itu javascript versi 24": [
+      "JavaScript adalah bahasa pemrograman untuk web."
+    ],
+    "apa itu node js versi 24": [
+      "Node.js adalah runtime JavaScript di server."
+    ],
+    "buat function hello world versi 24": [
+      "function helloWorld() {\n  console.log(\"Hello World!\");\n}"
+    ],
+    "buat function tambah versi 24": [
+      "function tambah(a, b) {\n  return a + b;\n}"
+    ],
+    "contoh array versi 24": [
+      "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr);"
+    ],
+    "contoh object versi 24": [
+      "const user = { name: \"Irfan\", age: 20 };\nconsole.log(user);"
+    ],
+    "contoh loop for versi 24": [
+      "for (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+    ]
+  },
+  "jsSnippets": {},
+  "deepThink": {
+    "type": "DeepThink",
+    "dim": 256,
+    "thinkSteps": 3,
+    "knowledgeGraph": []
+  },
+  "conversationContext": [],
+  "knowledgeBase": {
+    "userProfile": {
+      "name": "irfan",
+      "preferences": {},
+      "history": []
+    }
+  },
+  "savedAt": "2026-06-12T23:49:01.563Z"
+}
